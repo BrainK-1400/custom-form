@@ -21,9 +21,11 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-    
     "baseUrl": ".",
     "paths": {
+      "vuex": [
+        "./node_modules/vuex/types"
+      ],
       "@/*": [
         "src/*"
       ],

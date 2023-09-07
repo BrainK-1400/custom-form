@@ -1,7 +1,7 @@
 {
-  "name": "hello-vue",
+  "name": "custom-form",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -11,10 +11,12 @@
   "dependencies": {
     "@element-plus/icons-vue": "^2.1.0",
     "element-plus": "^2.3.12",
-    "lodash": "^4.17.21",
+    "lodash-es": "^4.17.21",
     "vue": "^3.3.4",
+    "vue-draggable-next": "^2.2.1",
     "vue-draggable-plus": "^0.2.6",
-    "vue-router": "^4.2.4"
+    "vue-router": "^4.2.4",
+    "vuex": "^4.0.2"
   },
   "devDependencies": {
     "@types/node": "^20.5.9",

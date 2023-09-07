@@ -4,15 +4,6 @@
       <PropertyItem label="控件名称">
         <el-input v-model="widget.label" />
       </PropertyItem>
-      <PropertyItem label="水印">
-        <el-input v-model="widget.placeholder" />
-      </PropertyItem>
-      <PropertyItem label="单位">
-        <el-input v-model="widget.unit" />
-      </PropertyItem>
-      <PropertyItem label="默认值">
-        <el-input-number v-model="widget.defaultValue" />
-      </PropertyItem>
       <PropertyItem label="填写说明">
         <el-input type="textarea" :rows="4" v-model="widget.description" />
       </PropertyItem>

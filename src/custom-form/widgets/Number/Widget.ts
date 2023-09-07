@@ -1,11 +1,12 @@
 import { Widget } from '@cf/core';
-import { isNil } from 'lodash';
+import { isNil } from 'lodash-es';
+
 export default class Number extends Widget {
-  label: string = '数字';
-  defaultValue: number | null = null;
-  placeholder: string | null = '';
-  unit: string | null = '';
-  model = { value: null as number | null };
+  label = '数字';
+  defaultValue?: number;
+  placeholder?: string;
+  unit?: string;
+  model = { value: undefined as number | undefined };
 
   async validateModel() {
     let errors = [];
