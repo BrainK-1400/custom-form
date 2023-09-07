@@ -15,8 +15,8 @@ npm run dev
 1\. 此表单设计器的灵感来源于小幺鸡表单设计器，所以样子跟小幺鸡很相似，但此框架的代码结构比较清晰，可以自己按照规则添加想要的控件。
 2\. 核心功能跟组件库无关，添加自己的控件时可以使用html来自定义。
 
-![设计页面](https://github.com/fengqingtian/blob/master/public/design.png)
-![预览页面](https://github.com/fengqingtian/blob/master/public/display.png)
+![设计页面](https://github.com/fengqingtian/custom-form/blob/master/public/design.png?raw=true)
+![预览页面](https://github.com/fengqingtian/custom-form/blob/master/public/display.png?raw=true)
 
 ## 代码解析
 
