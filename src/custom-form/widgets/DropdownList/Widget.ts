@@ -2,6 +2,7 @@ import { WidgetWithDataSource } from '@cf/core';
 
 export default class DropdownList extends WidgetWithDataSource {
   label = '单选下拉选择';
+  placeholder = '';
   model = {
     option: null as null | { label: string; value: any }
   }

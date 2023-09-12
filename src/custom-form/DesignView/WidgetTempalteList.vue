@@ -35,7 +35,7 @@ const groups = ref([
       { type: 'Number', label: '数字', icon: 'Plus' },
       { type: 'Switch', label: '开关', icon: 'TurnOff' },
       // { type: 'RadioList', label: '单选列表', icon: 'Edit' },
-      // { type: 'DropdownList', label: '单选下拉列表', icon: 'Select' },
+      { type: 'DropdownList', label: '单选下拉列表', icon: 'Select' },
       { type: 'DatePicker', label: '日期/时间', icon: 'Timer' },
       {
         type: 'DateRangePicker',

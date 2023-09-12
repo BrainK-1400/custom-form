@@ -48,7 +48,7 @@ export class Widget {
   }
 }
 
-interface Option {
+export interface Option {
   label: string,
   value: any
 }
@@ -56,8 +56,8 @@ interface Option {
 export interface DataSource {
   mode: 'options' | 'remoteKey';
   options: Array<Option>;
-  defaultValue: Array<any>;
-  remoteKey?: string | null;
+  defaultValue?: any;
+  remoteKey: string | null;
 }
 
 export class WidgetWithDataSource extends Widget {
@@ -65,7 +65,7 @@ export class WidgetWithDataSource extends Widget {
   dataSource = {
     mode: 'options',
     options: [],
-    defaultValue: [],
+    defaultValue: null,
     remoteKey: null,
   } as DataSource;
 
