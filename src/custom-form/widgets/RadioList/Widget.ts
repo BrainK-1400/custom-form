@@ -1,8 +1,7 @@
 import { WidgetWithDataSource, Option } from '@cf/core';
 
-export default class DropdownList extends WidgetWithDataSource {
-  label = '单选下拉选择';
-  placeholder = '';
+export default class RadioList extends WidgetWithDataSource {
+  label = '单选列表';
   model = {
     option: null as Option | null | undefined
   }
