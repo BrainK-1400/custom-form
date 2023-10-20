@@ -37,6 +37,3 @@ widgets/_Demo目录是一个控件模板目录，可以复制后在它的基础�
 3. 如何添加一个控件<br>
   a. 添加一个控件目录，完成上面的5个文件<br>
   b. 到DesignView/WidgetTempalteList.vue文件中添加控件模板的图标和名称<br>
-
-## todo
-1. 增加栅格布局控件，可以多个控件占一行
